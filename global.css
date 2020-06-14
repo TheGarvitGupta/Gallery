@@ -1,0 +1,48 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.gallery {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	overflow: auto;
+	margin-top: 100px;
+}
+
+.one-box-container {
+	width: calc(40% - 2px);
+	height: 0;
+    padding-bottom: calc(40% - 2px);
+}
+
+.six-box-container {
+	width: 60%;
+	height: 0;
+    padding-bottom: calc(40% - 2px);
+	margin-left: 2px;
+}
+
+.fiv-box-container {
+	width: 100%;
+	height: 0;
+    padding-bottom: 20%;
+    margin-top: 2px;
+}
+
+.box-container {
+	background-color: rgb(250, 250, 250);
+	float: left;
+}
+
+.container {
+	height: 10px;
+	width: 100%;
+	background-color: red;
+}
+
+.image-container {
+
+}
